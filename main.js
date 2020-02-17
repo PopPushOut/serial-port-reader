@@ -59,6 +59,7 @@ function decimalToAscii(data) {
 }
 function constructByteLengthParser(byteLen) {
   return new ByteLength({ length: byteLen });
+}
 function initNewCommunication(port) {
   //delete Communicator;
   port.close();
